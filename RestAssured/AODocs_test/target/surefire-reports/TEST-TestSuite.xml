@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.373" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\nargoubi\eclipse-workspace\AODocs_test\target\test-classes;C:\Users\nargoubi\eclipse-workspace\AODocs_test\target\classes;C:\Users\nargoubi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\nargoubi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nargoubi\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\nargoubi\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\nargoubi\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\rest-assured\4.3.2\rest-assured-4.3.2.jar;C:\Users\nargoubi\.m2\repository\org\codehaus\groovy\groovy\3.0.6\groovy-3.0.6.jar;C:\Users\nargoubi\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.6\groovy-xml-3.0.6.jar;C:\Users\nargoubi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nargoubi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nargoubi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nargoubi\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\nargoubi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\nargoubi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nargoubi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\json-path\4.3.2\json-path-4.3.2.jar;C:\Users\nargoubi\.m2\repository\org\codehaus\groovy\groovy-json\3.0.6\groovy-json-3.0.6.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\rest-assured-common\4.3.2\rest-assured-common-4.3.2.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\xml-path\4.3.2\xml-path-4.3.2.jar;C:\Users\nargoubi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nargoubi\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\nargoubi\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\nargoubi\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\nargoubi\.m2\repository\org\json\json\20201115\json-20201115.jar;C:\Users\nargoubi\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\nargoubi\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\nargoubi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nargoubi\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nargoubi\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nargoubi\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nargoubi\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\nargoubi\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Users\nargoubi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\nargoubi\AppData\Local\Temp\surefire1120232967646829440\surefirebooter13518368054295961187.jar C:\Users\nargoubi\AppData\Local\Temp\surefire1120232967646829440 2021-06-24T04-41-36_493-jvmRun1 surefire1561369883901462217tmp surefire_02867210899241653759tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\nargoubi\eclipse-workspace\AODocs_test\target\test-classes;C:\Users\nargoubi\eclipse-workspace\AODocs_test\target\classes;C:\Users\nargoubi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\nargoubi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nargoubi\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\nargoubi\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\nargoubi\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\rest-assured\4.3.2\rest-assured-4.3.2.jar;C:\Users\nargoubi\.m2\repository\org\codehaus\groovy\groovy\3.0.6\groovy-3.0.6.jar;C:\Users\nargoubi\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.6\groovy-xml-3.0.6.jar;C:\Users\nargoubi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nargoubi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nargoubi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nargoubi\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\nargoubi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\nargoubi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nargoubi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\json-path\4.3.2\json-path-4.3.2.jar;C:\Users\nargoubi\.m2\repository\org\codehaus\groovy\groovy-json\3.0.6\groovy-json-3.0.6.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\rest-assured-common\4.3.2\rest-assured-common-4.3.2.jar;C:\Users\nargoubi\.m2\repository\io\rest-assured\xml-path\4.3.2\xml-path-4.3.2.jar;C:\Users\nargoubi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nargoubi\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\nargoubi\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\nargoubi\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\nargoubi\.m2\repository\org\json\json\20201115\json-20201115.jar;C:\Users\nargoubi\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\nargoubi\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\nargoubi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nargoubi\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nargoubi\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nargoubi\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nargoubi\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\nargoubi\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nargoubi"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Users\nargoubi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\nargoubi\eclipse-workspace\AODocs_test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nargoubi\AppData\Local\Temp\surefire1120232967646829440\surefirebooter13518368054295961187.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="nargoubi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nargoubi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\nargoubi\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\nargoubi\eclipse-workspace\AODocs_test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\nargoubi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/nargoubi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/nargoubi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Users\nargoubi\AppData\Local\Microsoft\WindowsApps;C:\Users\nargoubi\AppData\Local\Programs\Git\cmd;C:\Users\nargoubi\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="ScenarioComplet" classname="testcases.ClassTest" time="4.811">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at testcases.ClassTest.SharedFile(ClassTest.java:68)
+	at testcases.ClassTest.ScenarioComplet(ClassTest.java:80)
+]]></failure>
+    <system-out><![CDATA[WebService
+HTTP/1.1 200 OK
+X-GUploader-UploadID: ABg5-UwjH9LuuhQCEP65f4Pvedqazby3t7rwKjPYc1x274aBJsm2BEnpyvDlUyfxVCoVEgMfovGGCnkFT-ZKs_1eiq96omj0ug
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 24 Jun 2021 02:41:39 GMT
+Content-Length: 124
+Server: UploadServer
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "kind": "drive#file",
+    "id": "11pOOZN5uif4L1mW9KE931pZRZYWQN1nc",
+    "name": "Untitled",
+    "mimeType": "application/json"
+}
+11pOOZN5uif4L1mW9KE931pZRZYWQN1nc
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 24 Jun 2021 02:41:41 GMT
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+{
+    "kind": "drive#permission",
+    "id": "02497268808381191083",
+    "type": "user",
+    "role": "writer"
+}
+02497268808381191083
+{"parents":{"id":"11pOOZN5uif4L1mW9KE931pZRZYWQN1nc"}}
+HTTP/1.1 200 OK
+X-GUploader-UploadID: ABg5-UwEjC4Y0vPjh6u9FfGiadUwz1fOVtO5DMEyyQio62_-DTTueEB--w6nmYiIdHATFJnZ1-cdIxnPphEeA7pKOw
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 24 Jun 2021 02:41:42 GMT
+Content-Length: 124
+Server: UploadServer
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{
+    "kind": "drive#file",
+    "id": "1dj0v5b4mI2uCOL7QrbtPyQkGHZ0rOkih",
+    "name": "Untitled",
+    "mimeType": "application/json"
+}
+HTTP/1.0 400 Bad Request
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 1555
+Date: Thu, 24 Jun 2021 02:41:42 GMT
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width"/>
+    <title>Error 400 (Bad Request)!!1</title>
+    <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* &gt; body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  </head>
+  <body>
+    <a shape="rect" href="//www.google.com/">
+      <span id="logo" aria-label="Google"/>
+    </a>
+    <p>
+      <b>400.</b>
+      <ins>That’s an error.</ins>
+    </p>
+    <p>
+Your client has issued a malformed or illegal request.        <ins>That’s all we know.</ins>
+    </p>
+  </body>
+</html>
+HTTP/1.1 404 Not Found
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 24 Jun 2021 02:41:42 GMT
+Vary: Origin
+Vary: X-Origin
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+<html>
+  <body>Not Found</body>
+</html>
+]]></system-out>
+  </testcase>
+</testsuite>
